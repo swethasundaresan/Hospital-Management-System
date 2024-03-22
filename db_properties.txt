@@ -1,0 +1,2 @@
+hostname=DESKTOP-CTO9G4R\SQLEXPRESS01
+dbname=HospitalDB
