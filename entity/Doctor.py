@@ -45,3 +45,6 @@ class Doctor:
     @_contactNumber.setter
     def _contactNumber(self, value):
         self.__contactNumber = value
+    
+    def __str__(self):
+        return f"Doctor ID: {self.__doctorId}\nFirst Name: {self.__firstName}\nLast Name: {self.__lastName}\nSpecialization: {self.__specialization}\nContact Number: {self.__contactNumber}\n"
