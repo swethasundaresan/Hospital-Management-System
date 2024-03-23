@@ -63,3 +63,6 @@ class Patient:
     @_address.setter
     def _address(self, value):
         self.__address = value
+
+    def __str__(self):
+        return f"Patient ID: {self.__patientId}\nFirst Name: {self.__firstName}\nLast Name: {self.__lastName}\nDate of Birth: {self.__dateOfBirth}\nGender: {self.__gender}\nContact Number: {self.__contactNumber}\nAddress: {self.__address}\n"
